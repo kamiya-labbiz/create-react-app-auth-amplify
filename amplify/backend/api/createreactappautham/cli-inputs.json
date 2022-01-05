@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "createreactappautham",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/kamiya/github.com/kamiya-labbiz/create-react-app-auth-amplify/amplify/backend/api/createreactappautham/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authcognitocf0c6096"
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
